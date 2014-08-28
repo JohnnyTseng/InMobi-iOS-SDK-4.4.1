@@ -78,8 +78,8 @@
             adInterstitial = [[IMInterstitial alloc] initWithAppId:INTERSTITIAL_APP_ID];
             adInterstitial.delegate = self;
             
-            [activityIndicator startAnimating];
-            statusLabel.hidden = NO;
+          //  [activityIndicator startAnimating];
+         //   statusLabel.hidden = NO;
             [adInterstitial loadInterstitial];
             
             self.statusView.frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
