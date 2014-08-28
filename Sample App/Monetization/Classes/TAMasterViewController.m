@@ -109,7 +109,7 @@
     }
     
     UIBarButtonItem *backButton = [[UIBarButtonItem alloc] 
-                                  initWithTitle: @"Back" 
+                                  initWithTitle: @"BackXXRT" 
                                   style: UIBarButtonItemStyleBordered
                                   target: nil action: nil];
     
